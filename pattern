@@ -1,0 +1,28 @@
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+
+class HelloWorld {
+    public static void main(String[] args) {
+        int i,j,lines=4;
+        for(i=1;i<=lines;i++) {
+            for(j=1;j<=lines;j++) {
+                if(i==j) 
+                System.out.print("*");
+                else
+                System.out.print("0");
+            }
+            j--;
+            System.out.print("*");
+              while(j>=1){// this loop is used to print * in a line    
+          if(i==j)    
+           System.out.print("*");    
+          else    
+           System.out.print("0");    
+          j--;    
+      }    
+    System.out.println("");   
+    System.out.println();
+  }    
+         }    
+}    
+    
